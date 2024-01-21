@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,12 +10,22 @@ const Footer = () => {
           Empowering financial success through cutting-edge insights and
           tailored solutions – your journey to prosperity starts here. git init
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+        <div className="flex justify-left md:w-[75%] mx-3 my-6">
+          <a
+            href="https://www.linkedin.com/in/asterios-koutoulidis-0a8625293/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mr-4"
+          >
+            <FaLinkedin size={30} />
+          </a>
+          <a
+            href="https://github.com/astkout"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={30} />
+          </a>
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
