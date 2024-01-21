@@ -12,8 +12,9 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="text-3xl font-bold text-[#00df9a]">FINANCE.</h1>
       <ul className={`flex ${isMenuOpen ? "hidden" : "visible"} md:flex hidden`}>
-        <li className="p-4">Home</li>
+        <li className="p-4">Home </li>
         <li className="p-4">About</li>
+        <li className="p-4">Pricing"</li>
         <li className="p-4">Contact</li>
       </ul>
       <div className="md:hidden" onClick={toggleMenu}>
@@ -25,6 +26,7 @@ const Navbar = () => {
           <ul className="pt-24 uppercase">
             <li className="p-4 border-b">Home</li>
             <li className="p-4 border-b">About</li>
+            <li className="p-4 border-b">Pricing</li>
             <li className="p-4 border-b">Contact</li>
           </ul>
         </div>

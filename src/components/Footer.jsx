@@ -17,14 +17,14 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="mr-4"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={30} color="#00df9a"/>
           </a>
           <a
             href="https://github.com/astkout"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={30} />
+            <FaGithub size={30} color="#00df9a"/>
           </a>
         </div>
       </div>
