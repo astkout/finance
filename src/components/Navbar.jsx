@@ -14,7 +14,7 @@ const Navbar = () => {
       <ul className={`flex ${isMenuOpen ? "hidden" : "visible"} md:flex hidden`}>
         <li className="p-4">Home </li>
         <li className="p-4">About</li>
-        <li className="p-4">Pricing"</li>
+        <li className="p-4">Pricing</li>
         <li className="p-4">Contact</li>
       </ul>
       <div className="md:hidden" onClick={toggleMenu}>
