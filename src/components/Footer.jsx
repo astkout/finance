@@ -8,7 +8,7 @@ const Footer = () => {
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">FINANCE.</h1>
         <p className="py-4">
           Empowering financial success through cutting-edge insights and
-          tailored solutions – your journey to prosperity starts here.
+          tailored solutions – your journey to prosperity starts here.asdadad
         </p>
         <div className="flex justify-left md:w-[75%] mx-3 my-6">
           <a
